@@ -3,6 +3,7 @@ import Link from 'next/link';
 const VOCI = [
   { id: 'simulazione', href: '/', testo: 'Simulazione' },
   { id: 'casuale', href: '/casuale', testo: 'Modello casuale' },
+  { id: 'competizione-ciclica', href: '/competizione-ciclica', testo: 'Competizione ciclica' },
   { id: 'approfondimenti', href: '/approfondimenti', testo: 'Approfondimenti' },
 ];
 
