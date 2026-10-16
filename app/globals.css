@@ -17,3 +17,51 @@ select,
 summary {
   cursor: pointer;
 }
+
+.projects-footer {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 17px 20px 32px;
+  border-top: 1px solid #e5e7eb;
+  font:
+    400 11px ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    monospace;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+.projects-footer a {
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.projects-footer a:hover {
+  color: #111827;
+}
+
+.marine-reference-link {
+  display: inline;
+  color: #0369a1;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #7dd3fc;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  border-radius: 3px;
+  transition: color 150ms, background-color 150ms, text-decoration-color 150ms;
+}
+.marine-reference-link::after {
+  content: ' ↗';
+  font-size: 0.85em;
+}
+.marine-reference-link:hover {
+  color: #075985;
+  background-color: #e0f2fe;
+  text-decoration-color: #0284c7;
+}
+.marine-reference-link:focus-visible {
+  outline: 2px solid #0284c7;
+  outline-offset: 3px;
+  background-color: #e0f2fe;
+}

@@ -66,8 +66,8 @@ export default function Page() {
           </li>
           <li>
             <strong>Regole locali.</strong> Ogni cella considera gli otto vicini e passa alla specie
-            che la batte quando almeno tre vicini appartengono a quella specie. Tutte le celle
-            vengono aggiornate insieme.
+            che la batte quando il numero di vicini di quella specie raggiunge la soglia di
+            conquista: da 1 a 8, inizialmente 3. Tutte le celle vengono aggiornate insieme.
           </li>
           <li>
             <strong>Bordi collegati.</strong> Il fondale è una griglia toroidale: ciò che attraversa
@@ -80,7 +80,12 @@ export default function Page() {
             il sistema.
           </li>
           <li>
-            <strong>Modello illustrativo.</strong> I nomi dei coralli rappresentano strategie
+            <strong>Modello illustrativo.</strong> Una simulazione interattiva in tempo reale basata su un{' '}
+            <strong>Automa Cellulare</strong> (simile al{' '}
+            <a href="https://it.wikipedia.org/wiki/Gioco_della_vita" target="_blank" rel="noopener noreferrer" className="marine-reference-link">
+              Gioco della Vita di Conway
+            </a>, ma con regole diverse).
+            I nomi dei coralli rappresentano strategie
             astratte. Non è una previsione ecologica, né la dinamica del replicatore del gioco
             classico. I guadagni della matrice non vengono usati come tassi di crescita.
           </li>

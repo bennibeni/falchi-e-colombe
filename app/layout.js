@@ -11,13 +11,8 @@ export default function RootLayout({ children }) {
     <html lang="it">
       <body>
         {children}
-        <footer className="mx-auto max-w-4xl px-4 py-6 text-sm">
-          <a
-            href="https://links-page-bennibeni.vercel.app/"
-            className="text-blue-600 underline dark:text-blue-400"
-          >
-            ← Tutti i progetti
-          </a>
+        <footer className="projects-footer">
+          <a href="https://links-page-bennibeni.vercel.app/">&larr; All projects</a>
         </footer>
       </body>
     </html>

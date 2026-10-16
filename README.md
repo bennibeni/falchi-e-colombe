@@ -52,8 +52,8 @@ Il modello casuale usa 1000 individui, incontri casuali e riproduzione per
 campionamento, senza mutazioni né calamità. Comprende tre scenari e un parametro
 per l'ambiguità dei ruoli nello scenario con i borghesi.
 
-La competizione ciclica usa una griglia toroidale 60×60 e una soglia di tre vicini
+La competizione ciclica usa una griglia toroidale 240×240 e una soglia di conquista regolabile da 1 a 8 vicini (inizialmente 3)
 per la sostituzione della specie. Le spirali iniziali sono preparate geometricamente;
 non ci sono mortalità o reintroduzioni spontanee. Il fondale libero può essere
-colonizzato. La pagina distingue esplicitamente questa dinamica locale dal gioco
+colonizzato con almeno tre vicini della stessa specie, indipendentemente dalla soglia di conquista. La pagina distingue esplicitamente questa dinamica locale dal gioco
 classico a somma zero e dal modello Falco-Colomba.
